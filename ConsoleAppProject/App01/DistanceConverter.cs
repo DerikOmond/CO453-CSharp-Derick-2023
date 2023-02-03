@@ -27,6 +27,7 @@ namespace ConsoleAppProject.App01
            //step 3 - print feet
 
            Console.WriteLine(miles + " miles is " + feet + " feet.");
+            Console.ReadLine();
         }
     }
 }

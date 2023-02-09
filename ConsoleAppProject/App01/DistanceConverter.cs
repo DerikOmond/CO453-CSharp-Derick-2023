@@ -12,6 +12,20 @@ namespace ConsoleAppProject.App01
     {
         public void Run()
         {
+            //Display heading information
+
+            Console.WriteLine("This console application allows you to convert from one distance unit to another.\nWould you like to try?: ");
+            String userAccept = Console.ReadLine();
+
+            if(userAccept.Equals("yes"))
+            {
+                Console.WriteLine("You agreed!!\n");
+            }
+            else
+            {
+                Console.WriteLine("Oh well :)");
+            }
+
             //step1 - Input needed from the user
 
             Console.Write("Enter no. of miles: ");
